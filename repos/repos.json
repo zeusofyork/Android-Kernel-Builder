@@ -1,7 +1,7 @@
-[{
+{
   "kernelSource": {
     "name": "android_kernel_oneplus_sm8350",
-    "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350",
+    "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350/tree/oneplus/sm8350_t_13.1.0_oneplus9",
     "branch": "oneplus/sm8350_t_13.1.0_oneplus9",
     "device": "lemonadep",
     "defconfig": "defconfig"
@@ -15,11 +15,11 @@
       "binPath": ["bin"]
     }
   ],
-    "ccache":false,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "proton-clang/bin/clang",
-      "externalCommand": {
+  "ccache": false,
+  "params": {
+    "ARCH": "arm64",
+    "CC": "proton-clang/bin/clang",
+    "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
         "LD": "proton-clang/bin/ld.lld",
@@ -32,12 +32,12 @@
         "STRIP": "proton-clang/bin/llvm-strip",
         "LDGOLD": "proton-clang/bin/aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "proton-clang/bin/llvm-ar",
-        "LLVM_DIS": "proton-clang/bin/llvm-dis"
+        "LLVM_DIS": "proton-clang/bin/llvm-dis"}
   },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+  "AnyKernel3": {
+    "use": true,
+    "release": true,
+    "repo": "https://github.com/easterNday/AnyKernel3/",
+    "branch": "thyme"
   }
-}]
+}
