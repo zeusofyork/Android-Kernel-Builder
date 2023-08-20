@@ -79,15 +79,7 @@ jobs:
           restore-keys: |
             ccache-${{ env.KERNEL_NAME }}-${{ steps.ccache_key.outputs.CACHE_KEY }}-${{ env.builddate }}
 
-      - name: "⏰ Setup Anykernel3"
-        env:
-          params: "${{ toJSON(matrix.repos.AnyKernel3) }}"
-        run: |
-          ANYKERNEL_REPO=$(echo $params | jq -r ".repo")
-          ANYKERNEL_BRANCH=$(echo $params | jq -r ".branch")
-          git clone --recursive --depth=1 -j $(nproc) --branch $ANYKERNEL_BRANCH $ANYKERNEL_REPO AnyKernel3
 
-          echo "🤔 Setup Anykernel3 => ($ANYKERNEL_REPO)"
 
       - name: "🌟 Clone kernel source => (${{ env.KERNEL_REPO }})"
         run: |
