@@ -4,7 +4,7 @@
     "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350",
     "branch": "oneplus/sm8350_t_13.1.0_oneplus9",
     "device": "lemonadep",
-    "defconfig": "defconfig"
+    "defconfig": "build.config.msm.lahaina"
   },
   "withKernelSU": false,
   "toolchains": [
@@ -47,7 +47,7 @@
     "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350",
     "branch": "oneplus/sm8350_t_13.1.0_oneplus9",
     "device": "lemonadep",
-    "defconfig": "defconfig"
+    "defconfig": "build.config.msm.lahaina"
   },
   "withKernelSU": false,
   "toolchains": [
@@ -90,7 +90,7 @@
     "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350.git",
     "branch": "oneplus/sm8350_t_13.1.0_oneplus9",
     "device": "lemonadep",
-    "defconfig": "defconfig"
+    "defconfig": "build.config.msm.lahaina"
   },
   "withKernelSU": false,
   "toolchains": [
