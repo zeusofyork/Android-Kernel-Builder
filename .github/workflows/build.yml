@@ -203,7 +203,6 @@ jobs:
           args: ${{ steps.generate-args.outputs.args }}
           arch: ${{ steps.generate-args.outputs.ARCH }}
         run: |
-          make ARCH=arm64 mrproper
           echo "PATH Variable: $PATH"
           make ${{ env.args }} ${{ env.DEFCONFIG_NAME }}
 
