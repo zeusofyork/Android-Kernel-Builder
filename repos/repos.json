@@ -1,7 +1,7 @@
 [{
   "kernelSource": {
     "name": "android_kernel_oneplus_sm8350",
-    "repo": "https://github.com/zeusofyork/android_kernel_oneplus_sm8350",
+    "repo": "https://github.com/engstk/op9.git",
     "branch": "oneplus/SM8350_S_12.0_9Pro",
     "device": "lemonadep",
     "defconfig": "build.config.msm.lahaina"
