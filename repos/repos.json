@@ -37,7 +37,7 @@
   "AnyKernel3": {
     "use": true,
     "release": true,
-    "repo": "https://github.com/osm0sis/AnyKernel3",
+    "repo": "https://github.com/zeusofyork/op9",
     "branch": "main"
   }
 }]
